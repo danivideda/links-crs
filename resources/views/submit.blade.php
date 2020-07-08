@@ -6,7 +6,7 @@
             <h1>Submit a link</h1>
         </div>
         <div class="row">
-            <form action="/submit" method="post">
+            <form action="/submit" method="POST">
                 @csrf
                 @if ($errors->any())
                     <div class="alert alert-danger" role="alert">

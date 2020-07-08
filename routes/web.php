@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'LinkController@show');
 Route::get('/submit', 'FormController@show');
+Route::post('/submit', 'FormController@submit');
 
 Auth::routes();
 
